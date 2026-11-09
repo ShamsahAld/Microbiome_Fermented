@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Microbiome Fermented"
+abstract: "Microbiome Network Analysis of Traditional Fermented Remedies"
+type: software
+authors:
+  - given-names: "Shamsah"
+    family-names: "Aldhanhani"
+    email: "shamsah.aldhanhani@mbzuai.ac.ae"
+repository-code: "https://github.com/ShamsahAld/microbiome-fermented"
+license: MIT
+version: 0.1.0
+date-released: "2026-11-09"
