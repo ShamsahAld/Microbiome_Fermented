@@ -1,0 +1,10 @@
+# Settings for the analysis. Every threshold lives here, not in scripts.
+
+agp:
+  sample_type: "Stool"
+  consumer_levels:
+    - "Daily"
+    - "Regularly (3-5 times/week)"
+  nonconsumer_levels:
+    - "Never"
+  min_reads: 1000
