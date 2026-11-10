@@ -22,3 +22,8 @@ check = { cmd = "python --version && quarto --version", description = "Check tha
 # `reproduce` must rebuild every result from the raw data with one command.
 # The lessons replace this placeholder with real steps.
 reproduce = { cmd = "python -c \"print('Nothing to reproduce yet: add your steps to the reproduce task in pixi.toml')\"", description = "Rebuild all results from raw data" }
+download = { cmd = "bash scripts/download.sh", description = "Download and verify Wastyk et al. 2021 data listed in metadata/sources.tsv" }
+fetch-agp = { cmd = "bash scripts/fetch_agp.sh", description = "Fetch and verify American Gut 16S table and metadata from Qiita via redbiom" }
+
+[pypi-dependencies]
+redbiom = ">=0.3.9, <0.4"
