@@ -1,0 +1,2 @@
+name	url	md5	unpack	dest
+wastyk_repo	https://github.com/SonnenburgLab/fiber-fermented-study/archive/37f4c511c37d368383909c2c49b85fae7040e314.tar.gz	81acbdc54cfdbe012af9b71e08e8a3de	tar	data/raw/wastyk
