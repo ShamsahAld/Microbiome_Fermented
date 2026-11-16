@@ -4,7 +4,7 @@
 set -euo pipefail
 
 CTX="Deblur_2021.09-Illumina-16S-V4-150nt-ac8c0b"   # pinned redbiom context
-IDS="metadata/agp_sample_ids.txt"                    # committed sample list
+IDS="metadata/agp_cohort_ids.txt"                    # committed sample list
 OUT="data/raw/agp"
 CHECKSUMS="metadata/agp_checksums.md5"               # committed md5s
 
