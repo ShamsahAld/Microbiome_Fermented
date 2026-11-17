@@ -7,6 +7,7 @@ Author: Shamsah Aldhanhani
 ## Reproduce the results
 
 You need [Pixi](https://pixi.prefix.dev/latest/) and an internet connection.
+The SparCC network step (FastSpar) runs on Linux only; macOS can run the other steps.
 Then, from this folder:
 
 ```bash
