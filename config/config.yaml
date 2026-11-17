@@ -33,4 +33,4 @@ topology:
 
 robustness:
   subsample_repeats: 5
-  permutations: 50
+  permutations: 200
