@@ -26,3 +26,11 @@ sparcc:
   bootstraps: 100
   min_abs_corr: 0.3              # keep edges with |r| >= this
   max_pvalue: 0.05               # and bootstrap p-value <= this
+
+topology:
+  top_n_hubs: 10
+
+
+robustness:
+  subsample_repeats: 5
+  permutations: 50
