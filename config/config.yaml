@@ -8,3 +8,10 @@ agp:
   nonconsumer_levels:
     - "Never"
   min_reads: 1000
+
+
+asv:
+  min_prevalence: 0.01   # keep ASVs present in at least 1% of cohort samples
+
+genus:
+  min_prevalence: 0.10   # keep genera present in at least 10% of samples
