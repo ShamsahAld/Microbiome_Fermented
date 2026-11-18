@@ -40,5 +40,6 @@ kept_reads = genus_counts.values.sum() / counts.values.sum()
 print(f"genera in >= {cfg['genus']['min_prevalence']:.0%} of samples: {genus_counts.shape[1]}")
 print(f"reads kept: {kept_reads:.1%}")
 
+genus_counts.index.name = "sample_id"
 genus_counts.to_csv("data/processed/genus_table.tsv", sep="\t")
 print("wrote data/processed/genus_table.tsv")
