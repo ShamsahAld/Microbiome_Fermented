@@ -8,3 +8,29 @@ agp:
   nonconsumer_levels:
     - "Never"
   min_reads: 1000
+
+
+asv:
+  min_prevalence: 0.01   # keep ASVs present in at least 1% of cohort samples
+
+genus:
+  min_prevalence: 0.10   # keep genera present in at least 10% of samples
+
+seed: 7501
+
+balance:
+  subsample_nonconsumers: true   # downsample non-consumers to the consumer group size
+
+sparcc:
+  iterations: 50
+  bootstraps: 100
+  min_abs_corr: 0.3              # keep edges with |r| >= this
+  max_pvalue: 0.05               # and bootstrap p-value <= this
+
+topology:
+  top_n_hubs: 10
+
+
+robustness:
+  subsample_repeats: 5
+  permutations: 200
