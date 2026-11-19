@@ -15,3 +15,4 @@
   - Fewer negative edges in consumers (7 vs 9–15): p ≤ 0.02 in 4 of 5 subsets. Supporting finding.
   - Total edges: significant for 2 of 5 subsets only; not reported as a group difference.
   - Clustering, connected genera, largest cluster: not significant.
+- Network comparison: 132 shared edges (Jaccard 0.61), all with the same sign; hub degree rho = 0.88; module ARI = 0.60. Differential edges (27 consumer-only, 59 non-consumer-only) reflect differences in correlation strength around the |r| = 0.3 threshold and are reported descriptively, not as tested findings.
